@@ -5,13 +5,20 @@ body, html{
     display: grid;
 }
 
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/welcome.jpg");
+    background-size: 100% 112%;
+}
+
 #welcome{
     margin: auto;
     top: 50%;
+    color: white;
 }
 
 #smallTxt{
     font-size: 2vw;
+    
 }
 
 #bigTxt{
