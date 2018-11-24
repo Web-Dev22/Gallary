@@ -1,0 +1,19 @@
+body, html{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 90%;
+    display: grid;
+}
+
+#welcome{
+    margin: auto;
+    top: 50%;
+}
+
+#smallTxt{
+    font-size: 2vw;
+}
+
+#bigTxt{
+    font-size: 4vw;
+}
