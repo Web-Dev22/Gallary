@@ -1,0 +1,19 @@
+body{
+    background-color: #414141;
+}
+.app{
+    margin: 0 auto;
+    text-align: center;
+}
+.img {
+    width: 30vw;
+    height: auto;
+    margin: 15px;
+    border-style:solid;
+}
+
+@media only screen and (max-width: 600px){
+    .img {
+        width: 40vh;
+    }
+}

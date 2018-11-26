@@ -6,8 +6,12 @@ body, html{
 }
 
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/welcome.jpg");
-    background-size: 100% 112%;
+    
+    background-image: linear-gradient( rgba(77, 89, 196, 0.5), rgba(66, 66, 66, 0.5) ), url("imgs/welcome.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #welcome{
@@ -25,16 +29,27 @@ body{
 }
 
 #buttons{
-    display: inline-block;
+    display: inline;
 }
 
 #button1 , #button2{
     color: white;
     background-color: rgba(255, 255, 255, 0.281);
     border: 3px solid white;
-    font-size: 30px;
-    width: 10vw auto;
+    font-size: 25px;
+    width: 10vw;
     height: auto;
+    padding: 5px;
     text-align: center;
-    display: inline-block;
+    text-decoration: none; /* Removes the underscore */
+    margin: 0 10px;
+}
+
+
+/*this is how you add hover effect(mouse over effect)*/
+#button1:hover{ /*anything:hover*/
+    padding: 15px;
+}
+#button2:hover{
+    padding: 15px;
 }
